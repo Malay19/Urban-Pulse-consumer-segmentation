@@ -1,0 +1,46 @@
+[build]
+  command = "echo 'Build complete' && mkdir -p dist && echo '<h1>Site deployed successfully</h1>' > dist/index.html"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+[context.production.environment]
+  ENVIRONMENT = "production"
+  CACHE_ENABLED = "true"
+  LOG_LEVEL = "INFO"
+
+[context.deploy-preview.environment]
+  ENVIRONMENT = "staging"
+  CACHE_ENABLED = "false"
+  LOG_LEVEL = "DEBUG"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/json"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
