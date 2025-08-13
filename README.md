@@ -249,6 +249,9 @@ bandit -r src/
 
 ## 🌐 Deployment
 
+### **Vercel Deployment**
+- [**Access the link followed to set up the Vercel host website**](https://www.youtube.com/watch?v=E8xaV6fiTaA&ab_channel=KnowledgeBase)
+
 ### **Netlify Deployment**
 
 The application is optimized for Netlify deployment with:
