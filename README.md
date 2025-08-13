@@ -12,7 +12,7 @@ Transform bike-share mobility data and consumer spending patterns into actionabl
 
 ## 🚀 [Live Demo](https://urban-pulse-consumer-segmentation.vercel.app/) | 📖 [Documentation](docs/) 
 
-![Dashboard Preview](assets/images/dashboard-preview.png)
+![Dashboard Preview](assets/images/dashboard-preview.PNG)
 
 ---
 
