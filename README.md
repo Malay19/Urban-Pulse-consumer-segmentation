@@ -77,8 +77,8 @@ graph TB
 
 ## 🚀 Quick Start
 
-### **Option 1: One-Click Deployment**
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-org/consumer-segmentation)
+### **Option 1: One-Click Deployment / Access Vercel Link**
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-org/consumer-segmentation) | [!Vercel Link](https://urban-pulse-consumer-segmentation.vercel.app/)
 
 ### **Option 2: Local Development**
 
