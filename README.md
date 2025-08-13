@@ -10,7 +10,7 @@
 
 Transform bike-share mobility data and consumer spending patterns into actionable business insights using cutting-edge machine learning and interactive visualizations.
 
-## 🚀 [Live Demo](https://urban-pulse-consumer-segmentation.vercel.app/) | 📖 [Documentation](docs/) | 🎥 [Video Tour](#)
+## 🚀 [Live Demo](https://urban-pulse-consumer-segmentation.vercel.app/) | 📖 [Documentation](docs/) 
 
 ![Dashboard Preview](assets/images/dashboard-preview.png)
 
